@@ -6,8 +6,7 @@ window.onload = () => {
     const music = new Audio('');
     music.play();
     music.loop = true;
-
-    switch(5) {
+    switch((new Date()).getDay()) {
         case 1:
             day = ''
             pala = 'https://www.pngmart.com/files/8/Shovel-Tools-PNG-No-Background.png'
