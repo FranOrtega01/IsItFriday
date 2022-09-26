@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+h1{
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    font-size: 50px;
+    color: #4619dc;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #daa520 , 0 0 70px #daa520 , 0 0 80px #daa520 , 0 0 100px #daa520 ;
+    font-weight: bold;
+    font-family: arial;
+}
+.Boca{
+    position: absolute;
+    z-index: 90;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 50%;
+}
